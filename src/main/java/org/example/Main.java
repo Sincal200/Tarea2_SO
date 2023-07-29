@@ -23,6 +23,21 @@ public class Main {
             division = numero1 / numero2;
         }
 
+        // Calcular la raíz cuadrada solo si ambos números son positivos
+        double raiz1 = 0;
+        double raiz2 = 0;
+        if (numero1 >= 0) {
+            raiz1 = Math.sqrt(numero1);
+        } else {
+            System.out.println("No se puede calcular la raiz del primer numero, debe ser mayor o igual a cero.");
+        }
+
+        if (numero2 >= 0) {
+            raiz2 = Math.sqrt(numero2);
+        } else {
+            System.out.println("No se puede calcular la raiz del segundo numero, debe ser mayor o igual a cero.");
+        }
+
         // Mostrar los resultados en pantalla
         System.out.println("La suma de los numeros es: " + suma);
         System.out.println("La resta de los numeros es: " + resta);
@@ -33,6 +48,10 @@ public class Main {
         } else {
             System.out.println("No se puede realizar la division, el segundo numero es cero.");
         }
+
+        System.out.println("La raiz cuadrada del primer numero es: " + raiz1);
+        System.out.println("La raiz cuadrada del segundo numero es: " + raiz2);
+
         // Cerrar el objeto Scanner
         sc.close();
     }
