@@ -9,3 +9,8 @@ Hoy en día, Git es, con diferencia, el sistema de control de versiones moderno 
 ¿Qué es GitHub?
 
 Es una plataforma creada para que los programadores y desarrolladores de software puedan publicar sus proyectos en código abierto. GitHub explicado de una manera sencilla es un sitio donde se almacena código en la nube accesible a todo el mundo. Pero es que, además, actúa un poco como una red social, ya que cualquiera puede aportar sugerencias al desarrollo.
+
+
+Versionamiento:
+
+![image](https://github.com/Sincal200/Tarea2_SO/assets/50584963/39b845c8-8ab9-48ad-8460-ca35ff52e4d5)
