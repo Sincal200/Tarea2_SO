@@ -23,6 +23,10 @@ public class Main {
             division = numero1 / numero2;
         }
 
+        // Calcular el cuadrado de los números
+        double cuadrado1 = numero1 * numero1;
+        double cuadrado2 = numero2 * numero2;
+
         // Calcular la raíz cuadrada solo si ambos números son positivos
         double raiz1 = 0;
         double raiz2 = 0;
@@ -51,6 +55,9 @@ public class Main {
 
         System.out.println("La raiz cuadrada del primer numero es: " + raiz1);
         System.out.println("La raiz cuadrada del segundo numero es: " + raiz2);
+
+        System.out.println("El cuadrado del primer numero es: " + cuadrado1);
+        System.out.println("El cuadrado del segundo numero es: " + cuadrado2);
 
         // Cerrar el objeto Scanner
         sc.close();
