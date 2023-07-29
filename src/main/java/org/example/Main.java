@@ -27,6 +27,10 @@ public class Main {
         double cuadrado1 = numero1 * numero1;
         double cuadrado2 = numero2 * numero2;
 
+        // Calcular el cubo de los números
+        double cubo1 = numero1 * numero1 * numero1;
+        double cubo2 = numero2 * numero2 * numero2;
+
         // Calcular la raíz cuadrada solo si ambos números son positivos
         double raiz1 = 0;
         double raiz2 = 0;
@@ -58,6 +62,9 @@ public class Main {
 
         System.out.println("El cuadrado del primer numero es: " + cuadrado1);
         System.out.println("El cuadrado del segundo numero es: " + cuadrado2);
+
+        System.out.println("El cubo del primer numero es: " + cubo1);
+        System.out.println("El cubo del segundo numero es: " + cubo2);
 
         // Cerrar el objeto Scanner
         sc.close();
